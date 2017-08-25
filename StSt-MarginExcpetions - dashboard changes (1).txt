@@ -1,0 +1,20 @@
+Changes to Dashboard
+
+1- Remove Breach Type
+2- remove SOD/INT/EOD
+3- Link fund SSGM_FUND* with login user. need to see data only for these funds
+4- Remove external breaches. rename internal breaches to "Breaches".
+5- Remove color bands
+6- Rename "NAV Margin Check" to "Margin Exceptions"
+7- in the table - remove direction, rename margin amount to "Current Exposure" , add column "Prev Day Exposure" , rename Internal limit to "Limit" and remove "extenral limit" column
+8-Remove 'Counterparty Marin Check(Absolute) and Total Margin Expsoure tables
+9- workflow tasks status - columns will change according to new workflow
+10 - remove Margin Breachs-Abs chart and adjust Margin Breaches-%
+11- remove MArgin Call Summary (Net) and Fund Exspore Amount ( Agreed)
+12 - In Margin Call table - rename following columns
+    agreed margin amount to Current Exposure
+    Remaining Margin Amount to Prev. Day Exposure
+    Total Margin to Limit
+13 - remove Fund Expsore by Date ( Net) chart
+14 - Workflow Assigned Tasks -rename Assignee to Task
+
