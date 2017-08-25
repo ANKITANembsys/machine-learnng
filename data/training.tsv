@@ -1,0 +1,856 @@
+Medium	ARO Level Fund Selector is not refreshed if a user In-Activates a FUND from ARO Admin --> Client Mngt and do a Page Refresh.
+Medium	Read Only user is able to start workflow. It should be disabled or Non Active for RO user on Operations --> Agreement Monitor.
+Medium	Click on Failed Trade Number is opening a Blank Window. 
+Medium	Check Box Allignment Issue on Add Role Pop Up.
+Medium	Schedule Job Status
+Medium	If a recon is created and scheduled, and afterwards, user inactivates the recon, the scheduler should not process it and it should give error via mail that the scheduled recon is inactivated .
+Medium	In consistency in source drop down width, in reconciliation add/edit recon.(UI Issue)
+Medium	In Recon Configuration TaskList has Active field , but the system is allowing hard delete of recons. It should allow only soft delete.
+Medium	In client Management fund tab, Add/ edit fund modal has "Is Active" field, should be changed to "Active" .
+Medium	Scheduling of recon should not be allowed, when more than one funds are selected and recon is created for one and scheduled for another fund.
+Medium	In Client Management fund tab, if we inactivate a fund and then click on add, the drop down of parent fund list is still giving the inactive fund's name. The same works fine, when user refreshes the screen.
+Medium	Client Management, Funds are not getting saved when any parent fund is being selected, when the user tries to save a new fund. On edit it is working fine.
+Medium	Scheduling is allowed on an In-Active Fund. 
+Medium	RECON configuration and Run is allowed on an In-Active Fund.
+Medium	Creation of source is allowed on In-Active Fund.
+Medium	In-Active Fund is available in Source Management --> Fund Picklist.
+Medium	In Job Status Tab --> for Workflow Scheduler , the Job-Sub Type pick list is coming as blank despite too many workflows created for the user.
+Medium	Scheduling Add screen , category list is not sorted .
+Medium	In case of edit or add a new schedule, The display of success message in Scheduler task happens rapidly, and navigates it to the scheduler tasklist grid page.
+Medium	In source management , add/edit screen, rename "Is active" field name to active.
+Medium	In source management, after deletion of source, the grid is not getting updated until refresh.
+Medium	Source Management, delete a source, the success message is displayed in red. "Source deleted successful."
+Medium	Audit is not working for - Client Funds(edit/delete/add/active/inactive)
+Medium	Audit is not working for - Client Contacts(edit/delete/add/active/inactive)
+Medium	Source Management, while adding the mapping manually through Add Button, the system allows to add field with same name.
+High	Upload  of DTTC File with Failed Records is not generating workflow in ARO
+Medium	Create/Delete of New Source in Source Management is not Auditable.
+Medium	Active / Inactive/Edit/Update of Source and its Fields is not auditable.
+Medium	Update of Fund Name on Source Mngt is loosing data from Fund Name Field.
+Medium	Try update an existing source that is in use, Delete a Field from mapping, gives error message that Field in use so cant delete it an Field gets deleted.
+High	Audit | Cosmetic Issues
+Medium	Qlik is showing some error message.
+Medium	The logout icon in ARO should have a tooltip .
+Medium	In recon, when we run two empty files of 0 kb, the system processes the files as "complete" and give the counts of record as 0. Ideally it should atleast give error of headers.
+Medium	In recon, the error messages are not displayed in a proper manner. The error message do not specify the row number.
+Medium	In recon, the sources filters modal is not opening. Clicking on the icon opens and closes the modal very rapidly. 
+Medium	In recon, while creating new recon , while adding the mappings manually, the system accepts the fields with same field name.
+Medium	Issue on Mapping of RECON.
+Medium	If a Fund have 5 to 6 level of parent child hierarchy, the Fund is having display issue and is not showing it in Fund Selector.
+Medium	Suggestion: Across ARO, all input fields i.e., textboxes, dropdown lists, checkboxes, etc. , should be non-editable when read only access is given to the user.
+Medium	When in Read Only access, In Workflow, Admin Tab, the user should not be given permissions to perform run, schedule, update or add any workflow rules.
+Medium	When in Read Only access, In Workflow, Tasklist Tab, the user should not be given permissions to perform any operations.
+Medium	 When in Read Only access,In Confuguration, Validation Rules tab,  the user should not be given Import , save, update or delete options.
+Medium	 When in Read Only access, In Configuration, Reference Data Tab, the user should not be given Import , save, update or delete options.
+Medium	 When in Read Only access , In Client Management, Client Contact tab, the user should not be given access to add, edit or delete any fund.
+Medium	When in Read Only access, In Client Management, Fund tab, the user should not be given access to add, edit or delete any fund.
+Medium	When in Read Only access, In user management , User role tab, the user should not be given options to add, edit or delete any user role.
+Medium	When in Read Only access, the Aggrement Monitor screen is giving option to import files.
+Medium	When in Read Only access, The Middle Office Tab should not give user options to claim,unclaim,etc.
+Medium	When in Read Only access, Recon should not be given run and schedule options in Recon Task List
+Medium	When in Read Only access, AIFMD module should not give SAVE option .
+Medium	When in Read Only access, In Regulatory SDR, the user is given all access to group, ungroup ,claim etc operations , in all the sub-menus .
+Medium	When in Read Only access, in Inbox Screen for all the tabs, user is getting access to perform operations on the data.
+Medium	In read only access, The Scheduling grid should not display options of run, delete, enable , disable etc.
+Medium	The Scheduling grid is showing records of another fund too. The grid should display fund specific records.
+Medium	In role management when checking the "Write ", "Read " checkboxes also gets checked but visiting that page after save is not persisting the read checkboxes.
+Medium	File Naming Convention field in recon configuration is indicated as mandatory field, but leaving it blank also saves the configuration
+Medium	Sometimes, The scheduler grid is not displaying the schedules created , in console it shows status 500, "internal server error". 
+Medium	Scheduler when failed gives error message in green.
+Medium	If user's role has only read only access to recon, It should not show the run icon. Currently, it shows run and when the files are being loaded, it gives "internal server error"
+Medium	In read only mode, Source management should not give delete options
+Medium	In read only mode, Scheduling should not give add (+) option and save option .
+Medium	In source management, editing a source, import an excel with overriding option, having made some changes in the excel, the source gets updated on grid but on click of save it gives error,"Some error occurred while deleting previous mappings".
+Medium	Aro Admin --> Configuration --> issues at UI
+Medium	Admin -->Client Mngt --> Client Contact --> Click on ADD and leave all the fields blank on ADD Contact Pop up window --> Click on Save. Mandatory Field message is not coming and a misleading message is displayed.
+Medium	Delete of Client Contact is marked as Update in Audit Record.
+Medium	Add/Update of new user/user  is not getting audited.
+Medium	Delete of User is not allowed in ARO currently.
+Medium	Blank Audit Details is generated in Operations --> Audit -->Role
+Medium	For Multiple Fund Selection , the Module and Type Pick List Value is not coming while uploading File in File Monitor 
+Medium	Scheduling --> Click on + is taking user to Task Scheduling Screen with Fund Filed autopopulated as the 1st Fund in list.
+High	Workflow Read Only Issue
+Medium	Success message for new created recon scheduler--> "Created recon schedule for batch id: null".
+Medium	In source management, editing a source, the changes made in excel file is not getting updated in some cases.
+Medium	In Scheduling , click on Edit Recon Scheduler is taking user to Task Scheduling window with Blank Data.
+Medium	Parent fund drop down list is not showing correct list, when click on edit.
+Medium	When deleting some records from excel file, and again uploading in source management. It gives "internal server error"
+Medium	To run the recon, the files which are uploaded for some recon, are getting retained for any other recon, if we close the modal without loading them.
+Medium	If the default selected fund is inactive, there is no validation implemented. After re-login, the system is not selecting any funds and the system is showing data of previous inactive fund.
+Medium	User Sync Scheduler --> Scheduler is getting saved without any data in it.
+Medium	Not able to save REGULATORY Scheduler in ARO.
+Medium	Job Status is not displayed for a Workflow Schedule ran manually.
+Medium	Scheduling --> Create Workflow Schedule as Ad-hoc and run manually, Last Run Date Field is not updated.
+Medium	Scheduling --> Workflow --> Select Task Scheduling option as weekly and don't select any day and don't set any time --> Save is not giving any msg prompting user to enter the day and time.
+High	Scheduling --> Not getting Failure Notification via email.  
+High	Scheduled Tasks not displayed in Scheduling --> table
+Medium	Scheduling --> Click + --> Task Scheduling , Mandatory Fields are not * marked and are not getting red high light when try to save without providing mandatory data.
+Medium	If a fund is assigned to some role, and user inactives the same fund, its should delete the record from user role grid and also from the slider. 
+Medium	User Role --> Delete message for independent funds(fund which is not parent or child for any fund), pop-up message displayed is not correct.
+Medium	UI Issues in ARO
+Medium	In File Monitor click on Processed number Hyperlink , Processed Trade pop up window is blank.
+Medium	If you try upload an Invalid File from File Monitor user is logged out of ARO.
+Medium	For user having all inactive fund assigned to it, if he navigates to Data Grid --> gets an un-user friendly error message.
+Medium	For user having no active funds , navigation to WorkFolw Admin is giving Recon error.
+Medium	For an user having no active fund assigned to it, the Fund Pick List is not coming at all.
+Medium	For an error with "Please Contact Admin. Click here " , clicking on "Click Here" is doing nothing.
+Medium	If a User dont have any active Fund and he tries to navigate to RECON he is getting error message which is not user friendly.
+Medium	In-Active funds are available in Fund Selector at ARO Level.
+Medium	Not able to add new role in ARO
+Medium	In Job Status Tab, the Job Type Picklist doesn't contain User Sync option.
+Medium	Scheduling --> Scheduler List Grid is not coming so list of scheduled task is displayed.
+Medium	Scheduling --> Click + --> Task Scheduling , Mandatory Field Message are coming as pop up which is not is sync with ARO's other Mandatory messages.
+Medium	Scheduling -->Click + --> Task Scheduling Screen --> Fund, All the Funds defined in ARO are visible here.
+Medium	Scheduling --> click + --> Page Selection / Rendering Issue
+Lowest	Rendering of Page issue on Source Mngt --> Create Source  
+Medium	Suggestion : Fund Name should be at Source Mngt.
+Medium	A duplicate source with all duplicate data can be created in Source Management.
+Medium	"Add to Current Mapping"  option is not working on Source Management.
+Medium	Suggestion : File Naming Convention should have water mark [should contain help text]
+Medium	Delete of Sources at Source Mngt should not be allowed for In Use Sources.
+Medium	Suggestion : We should add Role and Qlik Fields at User Management Table too.
+Medium	Suggestion : Fund Addition/Deletion should go under 4 eye verification.
+Medium	Suggestion : Only Hard delete works on role. We should make it active and inactive rather than Hard delete
+Medium	Duplicate Role is creatable in ARO , Role Name should be unique.
+Medium	No validation rule present on deletion/updation of Mapping of Source from Source Management.
+Medium	Invalid error message is displayed for Blank Src 1 and Src 2 while creation of RECON Configuration.
+Medium	Role switch of user looses Fund Selection for the previously selected role.
+Medium	Delete of Mapping of Source from Source Mngt is not giving any error message.
+Medium	Not able to select data from Source 1 picklist and Source 2 picklist while adding Recon Mapping.
+Medium	Issues on adding Recon Mapping via Add Button.
+Medium	Display issue at all the Picklists in Source Mngt --> Create Source Table
+Medium	Suggestion : We should make File Type Read Only after 1st time save in Source Mngt --> Create Sources for Fund.
+Medium	Funds selection and unselecting don't trigger refresh of ARO, user have to manually do that.
+Medium	Source Management --> Fund --> Only the Reporting Unit Fund should be available for selection.
+High	Issue at FUND UNSelection from FUND Selector.
+High	Admin is not able to create non qlik user.
+High	In ARO add new role --> Add New Fund --> Assign New Role to a user SARVA --> Logout --> Relogin --> Select New Role --> Select New Fund --> Click on Source Mngt --> No Funds displayed and getting error message.
+Medium	Picklists having long data list don't have scroll Bar which makes selection tough.
+High	Personal Settings not working for user having multiple Roles.
+Medium	Source Management-> Import a mapping-> Delete some fields and save-> again Import a mapping but refresh without saving. The grid is getting empty, i.e., previous mapping is not being displayed.
+Medium	On ARO Fund selector, click on FUND Name --> the text disappears.
+Medium	Import Mapping Options on Source Management is not consistent.
+Medium	Recon Configuration Save : On Save of Recon Config , the value of Src1 and Src2 fields get removed.
+Medium	No Visibility of Funds.
+High	 Edit of workflow is giving this error message
+Medium	Save on Preferences Setting creates Double Claim , Assign , Group , Ungroup , Setting etc. in Workflow -->  Task List --> DTCC Workflow. The issue is there for all the Tables on Task List.
+Medium	Update of Child Funds in Client Management don’t give you updated list of child Funds for selection on Fund Selector at ARO Level
+Low	Investigate an SSO solution for dev tools
+Low	Setup a new Jenkins
+Medium	Setup Nexus
+High	Docker POC
+Highest	Setup ARO to run on Mac/Linux
+Medium	An error in between upload of Recon file leaves the uncompleted records of that recon in DB. It should be automatically rolled back.
+Medium	Application of 10 -12 Filters on RECONCILIATION makes the recon process too slow.
+Medium	New Category like TaskTracker.
+Medium	Recon - Break's Priority
+Medium	After deleting an existing Recon if you create Multiple Recon with same Name as deleted one , it is allowed in system.
+Medium	SCHEDULER for RECON is not working.
+Medium	Poor Performance of ARO while handling 2-3 lacks of Records for RECON.
+Highest	The Data on Data Control DASHBOARD is not getting refreshed when we upload new files for recon.
+Medium	DTCC Pairing :  User is free to give Alias while creating Mapping, but if PKs Filed Name is “Trade Id” and you give Alias as “Trade ID”  then recon for DTCC Pairing doesn’t work.
+Medium	DTCC PAIRING : Column Preferences not working.
+Medium	Suggestion : On Unmatched Tab,Row By Row and Column by Column don't work. Can we not disable or remove these options.
+Medium	User is allowed to trigger a process in ARO even though the same process is running at back end and  is not complete yet.
+Medium	Number Format Exception is not handled during Recon.
+Medium	Date as primary key for RECON is not working.
+Medium	Operations --> Audit --> Audit Report --> Function --> click on icon present in Details Field, Property Name Field Value should have logical name 
+Medium	Client Management --> Funds --> Add Fund button should be before Fund List.
+Medium	AUDIT --> Function and Workflow , two tabs have two different Date Format. 
+Medium	File Monitor -->  DTCC File Upload  Wrong upload message is displayed.
+Medium	Results  Partial Match[any table]  When you have 50/60 rows to display the Horizontal Scroll bar is not coming , you need to scroll vertically to get horizontal scroll bar.
+Medium	Suggestion : Aggregation picklist Name is extending to another Filed, give please choose a small name.
+Medium	Data Control   Config  Save Mappings  Save Button is not working and no configuration is saved.
+Medium	Data Control  Config  Import Mappings  Alignment of override current mapping / add to current mapping is not proper
+Medium	Switching of Fund on Data Control is not refreshing the data.
+Medium	Data Control -->  Config -->  In Mapping Table itself the Import and Export buttons should be present [on side of Add, Delete or save]
+Medium	Suggestion : Data Control --> Config  --> Task List --> Last Updated On  , please update it to " Last Updated"
+Medium	Data Control --> Config --> Task List --> Click on Download -->  NO is coming it should be No
+Medium	Data Control -->  Config -->  Create By, it should be Created By
+Medium	Suggestion : ARO Admin  Role Update  Activity Column should be removed and Add Fund + should be given at Fund Column itself.
+Medium	Suggestion : ARO Admin  Client Management  Create Client  Add Fund  Field  Should have upload and clone feature available for user
+Medium	Suggestion : ARO Admin  Client Management  Create Client  Add Fund  Edit Fund option is not available for user
+Medium	ARO Admin  Client Management  Create Client  Add Fund  Add Row   Give Fund Name and keep description blank  for blank description make field specific error message.
+Medium	Suggestion : ARO Admin --> Client Management --> Create Client --> Add Fund -->  Add Row  --> Error Message is displayed/Saved -->  Add Row Popup should be closed.
+Medium	Suggestion : Create a Non Click  Operations Lead user. Navigate to  Analytics --> Menus are displayed but No Report is displayed. What is the need of Menu for Non Click User, they should not have menu displayed too.
+Medium	ARO Admin --> Role Update --> No Save message is displayed --> Role is getting updated.
+Medium	Table Feature issue on Build Deployed on 6th Jan 2017
+Medium	Regulatory  CMRS , Default view of table alignment not fitting the Frame properly. Please refer to the screenshot.
+Medium	Operations Audit Report  , the search features on all Fields are not in sync
+Medium	ADMIN  ARO Admin  User Management  Edit View  Role and Permission Tables
+Medium	ADMIN --> ARO Admin --> Role Management , Action Field have different filter and is not consistent.
+Medium	ADMIN --> ARO Admin --> Client Management , Action and Status Field have different filter and is not consistent.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, Column Lengths are not Adjustable.
+Medium	Workflow --> Workflow Task List --> All Tables , Inconsistent Filter available on Fields.
+Medium	Regulatory --> DTCC PAIRING , Column Drag and Drop present but not working.
+Medium	Regulatory --> CMRS -->Column Drag and Drop present but not working.
+Medium	Regulatory --> SDR --> Breaks Management, Column Drag and Drop present but not working
+Medium	Operations --> Middle Office --> Mointor , Column Drag and Drop present but not working
+Medium	Operations --> User Inbox --> Table in all the tabs , Column Drag and Drop present but not working
+Medium	Operations --> File Cabinet , Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> Qlink Session, Filter or search feature present on Table Fields is not in sync.
+Medium	Admin --> Session Management --> Qlink Session , Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> ARO Session Table --> No Filter or search feature present on Table.
+Medium	Admin --> Session Management --> ARO Session, Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> ARO Session,Column Lengths are not Adjustable. 
+Medium	Admin --> Config --> Validation Rules, Column Drag and Drop is not happening.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, No Filter or search feature present on Table.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, Column Drag and Drop is not present.
+Medium	Workflow --> Workflow Task List --> All Tables , Column Drag and Drop is not working for tables on this Page.
+Medium	Task Work flow
+Medium	Recon - Issues
+Medium	Admin - Configuration -Reference Data - No check present in the client dropdown.It populates all client for a user who is not entitled to see other clients
+Medium	ARO User Management - User Edit functionality for active users
+Medium	Client Management - Zip Code Fields max length is not set
+Highest	Suggestion on User Management : Add --> Save a new user needs to be more user friendly.
+Medium	Audit Report export Issue with blank data
+Medium	Sorting & Pagination not working properly in client management
+Medium	Client Management screens - Creation of funds
+Medium	Audit - Filtering functionality not available in the datagrid
+High	Audit is not displayed on IE 
+Medium	Workflow Audit - Issues related with Grouping of Tasks
+Medium	Validation check is missing for task workflow. e.g. Manual Task1 complete can't invoke the same task again.
+Medium	 User skill is same for every user in Send Mail pop up window.
+Medium	There is no check of user active or inactive in Send mail popup window.
+Medium	Audit is not working for Task Tracking
+Medium	Read only functionality is missing in Workflow.
+Medium	Workflow definition is not aligned with user's fund.
+Medium	Suggestion : View Workflow Functionality should be there in ARO.
+Medium	Workflow Issues
+Medium	Discrepancies on Release Notes 11/05/2016 
+Medium	Intermittent Issue : The views are overlapping sometimes in ARO
+Medium	When we run a Task Tracking Workflow it is not displayed in Workflow Task List.
+Highest	Role change is not giving access to the Header Menu in ARO 
+Medium	Clone workflow is not working on ARO
+Medium	Getting message " User all ready logged In" after killing the Instance from Task Manager.
+Medium	Role Master - Screen hangs while deleting the role
+Medium	Recon - Issue on Recon on Primary Key
+Medium	Issue on Recon based on Match Priority.
+Medium	Stale Request Page Template Issue
+Medium	Recon - Aggregation Issue
+Medium	Recon - Mapping Reset issue
+Medium	Issue in reconciliation.
+Medium	The new recon config created on Configurations Tab is not getting displayed in Data Control --> Task List
+Medium	Reconciliation Name should be Unique.
+Medium	Across ARO : Move Off without save should give a confirming message that your are not saving the record , data will be lost.
+Medium	Filter on Source 1 and Source 2 should not be present at the time of creating Recon Configuration.
+Medium	For Recon Config, if we leave the Type Field as blank and try to save the record "Undefined is Required " error message is coming.
+Medium	Recon - Delete functionality need to be revisited 
+Medium	System exception - Getting Qlik 404 error
+Medium	P&L allocation graph 
+Medium	Generic Issue of Message display on Save
+Medium	Audit  Report User dropdown issue
+Medium	Add Edit Client - No Mandatory field validation present for fund
+Medium	Client Management - No validation check present for zip code
+Medium	User Login- Inactive user can login to the system
+Medium	Code Minification and combining js files across ARO
+Medium	Blank box on dashboard when no favorites added 
+Medium	Create a module to identify P&L position 
+Medium	Create a module to identify balance sheet position 
+Medium	AI - use Stanford NLP to parse and identify balance sheet, P&L and other financial data from a PDF 
+Medium	Create sample screen for uninstructed data presentation  
+Medium	Make command process as windows service (Tabula, Ruby)
+Medium	Let the users download extracted data as CSV, PDF and other formats
+Medium	Make changes to the extracted data dashboard; it should allows right click on a cell/row and perform change ( Edit, Delete, Merge) 
+Medium	Create an automatic process that imports PDF file to the Unstructured application and pre-process them
+Medium	Modify the Uninstructed data Main page, it should have similar look and feel like other ARO screens 
+Medium	Balance Sheet validation on the manually extracted data 
+High	Not able to login to ARO on IE 11.
+Medium	P&L Positions by Summary - Blank row is coming at the end of grid
+Medium	P&L Aggregation - Blank Values are coming
+Medium	Realized P&L Report - Getting blank values at the end of grid
+Medium	Issue on IE 11, Role selector, Fund Selector and Date displayer are not visible on any other page other than Home
+Medium	Shorting of records on DTCC Workflow Task List is not working as expected.
+High	Operation - Field Mapping
+Medium	Report - NAV Timeseries
+Medium	Report - NAV Timeseries
+High	Qlik Timeout issue
+High	Page Loading error
+Medium	Login - Already logged-in user issue for contact
+Medium	Ability to create drop-downs in non-alphabetaical order
+Medium	Create some order/folder for the reports in QLIK.
+Medium	Ability to create own report in ARO
+Medium	Timeseries NAV report from Qlik
+Medium	Admin User rights -  Assign portal role access
+Medium	User Characteristics - Format:• Ops:  firstname.lastname, i.e. danny.murphy / Clients: firstname.lastname_client, i.e. george.sosos_soros
+Medium	The DTCC change  - Claimed a new task - went to User Inbox - Changed the Status to Pending- is not getting Audited in Audit Report
+Medium	In User Inbox when we click on Send Mail Button mail is sent to the selected user without Trade ID and External ID
+Medium	Show Rows Column on Audit Details Page is not consistent.
+Medium	Workflow update is not getting Audited in ARO.
+Medium	Audit Report Details - Issues with blank old and new values 
+Medium	Audit Report - Search By Date Range not giving correct result (screenshot attached)
+Medium	Audit Report -  Admin privilege required to see audit reports
+Medium	File Management Upload - Table ARO Accounting
+Medium	Global Menu - Not aligned (Screenshot attached)
+Medium	File Management Upload - No UI validation present
+Medium	File Management Search Issues
+Medium	File Management Upload - Upload and Display Issue
+Medium	File Management Screen 
+Medium	File Management Upload - Fixed Values are coming in Fund Dropdown
+Medium	Compatibility Issue : Assign Button is not working on IE 11
+Medium	The Task List opened via click on Hyperlink of Group ID doesn't show the Grouped Task.
+Medium	Issues related to Schedule and Run Button on Work Flow List.
+Medium	Task Tracking Tasks are not getting displayed in Task List
+Medium	Field Mapping - Data Grid Issues
+Medium	Field Mapping - Adding manually Mapping
+Medium	Field Mapping - Import functionality not working
+Medium	Field Mapping - UI Issues
+Medium	Assign and Claim button not working for Exception Resolution Task. Assign To Column is also not available.
+Medium	Client Management - Client Delete Functionality Issue
+High	Client Management - Add Field Screen Issues
+Medium	Client Management - Not able to edit client information
+Medium	User Management - Login error message is not coming
+Medium	File Monitor - Trade file loaded incorrectly as Cash and pop up stated file successfully loaded however, file not loaded.
+Medium	File Monitor - Unable to trace user details who processed a trade file
+Medium	File Monitor - No error message provided when trade moves to pending status
+Medium	File Monitor - Scroll button not in order so as to view audit details.
+Medium	File Monitor - Action: PDF & Resend files not in use
+Medium	File Monitor - Import file through PDF/XML not in use
+Medium	File Monitor - Role and Fund level filter not there
+Medium	Trade Processing - Task List is empty
+Medium	Audit Report - In case of new client creation, it's audit reflected "password" field which was no where defined
+Medium	Audit Report - Date criteria incorrect as data captured from n-1 to n+1 when range given from n to n+1
+Medium	Audit Report - Full extraction of Audit details cannot be done for selected records
+Medium	Audit Report - Search & Export Icon present but not uniform
+Medium	'All' feature missing in select criteria
+Medium	Role based user landing page
+Medium	Build Pipeline for build promotion
+Medium	Handle File failures while processing trade files
+Medium	Handling File Processing failures other than valdations/rules
+Medium	User can hack a page he does not have access to thru URL
+Medium	Trade Processing in Cluster Mode
+Medium	Work related to DevOps
+Medium	SonarQube Integration with ARO
+Medium	Admin - Audit Details window
+Medium	Admin - Audit Report window
+Medium	Admin - Add a new user 
+Medium	Admin - Client Management Issues
+Medium	Role Master screen issues
+Medium	Admin - Edit a user issues
+Medium	Admin -  Add a new user issues
+Medium	Admin - User Management List Page 
+Medium	Admin - Default sorting of data is missing in dropdown fields (mentioned in the description)
+Medium	Global - Pagination show rows field values are not consistent 
+Medium	Global - Data Grid sorting functionality missing in admin modules
+Medium	User Management - Search Functionality not working
+Medium	Invalid user id
+Medium	Global Qlik filter is visible for all pages
+Medium	Global Client field shows Fund names not client names.
+Medium	Update the SSt reporting party for DTCC files loaded
+Medium	Create connectors to Load DTCC Files onto ARO for SSt
+Medium	Matching of messages from 2 systems in SSt
+Medium	Transaction Management in Trade Processing
+Medium	App Management Screen for ARO components
+Medium	Send active ARO user list to stakeholders
+Medium	Audit Report should be in one place
+Medium	Auto-deletion of user in Qlik when deleted from ARO
+Medium	Make the trade processing modules configurable 
+Medium	Potential DB connection leakage
+Medium	Date in ARO visible in user timezone
+Medium	Segregating Filters across ARO
+Medium	Trade Processing in Hibernate
+Medium	Implement holiday calendar
+Medium	Password Management
+Medium	User can have different role in different fund
+Medium	Link the batch Id in File Monitor with workflow task
+Medium	Outbound files tracking and viewing in ARO
+Medium	All the workflow tasks should have the same look and feel
+Medium	Monitoring includes System information, utility , logging etc...
+Medium	Performance for ARO - Queues, DB, Caching, Qlik, Load Testing, Stress Testing etc (Non Functional)
+Medium	All reporting and dash-boarding in ARO
+Medium	Admin module for Client, User, Roles, Resources
+Medium	File Monitor
+Medium	File/ Msg Mapping between 2 formats
+Medium	Processing of Trade File, Unstructured File, Positions File etc.
+Medium	Workflow Audit (Old/ New Value) for the workflow tasks
+Medium	Development of different workflows in ARO
+Medium	New files to be uploaded under File Management
+High	NAS drive is down again
+Medium	NAS is not working
+Medium	Cannot Access Qlik or ARO
+Medium	Files loaded stuck in pending status
+Medium	Drop down become un-scroll-able
+Medium	Top menu
+High	Field mapping import
+High	OT not working - rabbit MQ not connected
+Medium	ARO and OT performance from India
+High	NAS was down
+High	NAS drive is down again
+High	Login problem
+Highest	OT Dev very very slow
+Medium	NAS drive is down again
+Medium	Qlik tables change when other users change fund or date in ARO
+Medium	Aro & Qlik are regularly crashing
+High	ARO Demo is down
+Medium	Running OT Task on the server
+Medium	OT dev behaving strange - can we restart or check everything is running
+High	OT keeps crashing - Trojan notifications
+Medium	Organise Qli - Reports and database tables
+High	Product table to load - and loader to create
+Medium	Run Sonar and Fix high priority issues
+Medium	ARO Permission based on fund
+Medium	Bond Stuck in Pending 
+Medium	FX trades not loading on ARO 
+Medium	Swaps and Swaptions not loading
+Medium	Trade upload failure
+Medium	Amend Bonds
+Medium	IRS Receive Leg
+High	Equity Swap & Bond Swap 
+High	Repo Var rate Index
+Medium	ClientTransactionID on CDS
+Medium	Error Updating ISIN
+Medium	PayLeg Roll Code
+Medium	Update reversing position on FX
+Medium	Abilty to undo and reapply Actions
+Medium	CDS Index
+Medium	OSI Code
+Medium	Add mapping for exchange = CCP for only IRS, CDS
+Medium	Fees (all assets)
+Low	Template - create one in Portal or Use OT template
+Medium	Repo/Reverse Repo Failing
+Medium	Mapping to 'FX Points' in Loader
+Medium	FX B/S type
+Medium	Futures Ticker
+Medium	Guide distribution ready 
+Medium	Final Draft edits 
+Medium	Sarva to review/edits 
+Medium	GK/Navin to review/edits
+Medium	Collect Info/Add to guide
+High	P & L Screen
+High	NAV Screen
+Medium	Profile and Setting
+Medium	Sign on Screen
+Medium	EZARO Connectivity 
+High	Create Home Screen
+Medium	Software requirement finalization
+Medium	ARO Automation Design
+Medium	Automation
+Priority	Summary
+Medium	ARO Level Fund Selector is not refreshed if a user In-Activates a FUND from ARO Admin --> Client Mngt and do a Page Refresh.
+Medium	Read Only user is able to start workflow. It should be disabled or Non Active for RO user on Operations --> Agreement Monitor.
+Medium	Click on Failed Trade Number is opening a Blank Window. 
+Medium	Check Box Allignment Issue on Add Role Pop Up.
+Medium	Schedule Job Status
+Medium	If a recon is created and scheduled, and afterwards, user inactivates the recon, the scheduler should not process it and it should give error via mail that the scheduled recon is inactivated .
+Medium	In consistency in source drop down width, in reconciliation add/edit recon.(UI Issue)
+Medium	In Recon Configuration TaskList has Active field , but the system is allowing hard delete of recons. It should allow only soft delete.
+Medium	In client Management fund tab, Add/ edit fund modal has "Is Active" field, should be changed to "Active" .
+Medium	Scheduling of recon should not be allowed, when more than one funds are selected and recon is created for one and scheduled for another fund.
+Medium	In Client Management fund tab, if we inactivate a fund and then click on add, the drop down of parent fund list is still giving the inactive fund's name. The same works fine, when user refreshes the screen.
+Medium	Client Management, Funds are not getting saved when any parent fund is being selected, when the user tries to save a new fund. On edit it is working fine.
+Medium	Scheduling is allowed on an In-Active Fund. 
+Medium	RECON configuration and Run is allowed on an In-Active Fund.
+Medium	Creation of source is allowed on In-Active Fund.
+Medium	In-Active Fund is available in Source Management --> Fund Picklist.
+Medium	In Job Status Tab --> for Workflow Scheduler , the Job-Sub Type pick list is coming as blank despite too many workflows created for the user.
+Medium	Scheduling Add screen , category list is not sorted .
+Medium	In case of edit or add a new schedule, The display of success message in Scheduler task happens rapidly, and navigates it to the scheduler tasklist grid page.
+Medium	In source management , add/edit screen, rename "Is active" field name to active.
+Medium	In source management, after deletion of source, the grid is not getting updated until refresh.
+Medium	Source Management, delete a source, the success message is displayed in red. "Source deleted successful."
+Medium	Audit is not working for - Client Funds(edit/delete/add/active/inactive)
+Medium	Audit is not working for - Client Contacts(edit/delete/add/active/inactive)
+Medium	Source Management, while adding the mapping manually through Add Button, the system allows to add field with same name.
+High	Upload  of DTTC File with Failed Records is not generating workflow in ARO
+Medium	Create/Delete of New Source in Source Management is not Auditable.
+Medium	Active / Inactive/Edit/Update of Source and its Fields is not auditable.
+Medium	Update of Fund Name on Source Mngt is loosing data from Fund Name Field.
+Medium	Try update an existing source that is in use, Delete a Field from mapping, gives error message that Field in use so cant delete it an Field gets deleted.
+High	Audit | Cosmetic Issues
+Medium	Qlik is showing some error message.
+Medium	The logout icon in ARO should have a tooltip .
+Medium	In recon, when we run two empty files of 0 kb, the system processes the files as "complete" and give the counts of record as 0. Ideally it should atleast give error of headers.
+Medium	In recon, the error messages are not displayed in a proper manner. The error message do not specify the row number.
+Medium	In recon, the sources filters modal is not opening. Clicking on the icon opens and closes the modal very rapidly. 
+Medium	In recon, while creating new recon , while adding the mappings manually, the system accepts the fields with same field name.
+Medium	Issue on Mapping of RECON.
+Medium	If a Fund have 5 to 6 level of parent child hierarchy, the Fund is having display issue and is not showing it in Fund Selector.
+Medium	Suggestion: Across ARO, all input fields i.e., textboxes, dropdown lists, checkboxes, etc. , should be non-editable when read only access is given to the user.
+Medium	When in Read Only access, In Workflow, Admin Tab, the user should not be given permissions to perform run, schedule, update or add any workflow rules.
+Medium	When in Read Only access, In Workflow, Tasklist Tab, the user should not be given permissions to perform any operations.
+Medium	 When in Read Only access,In Confuguration, Validation Rules tab,  the user should not be given Import , save, update or delete options.
+Medium	 When in Read Only access, In Configuration, Reference Data Tab, the user should not be given Import , save, update or delete options.
+Medium	 When in Read Only access , In Client Management, Client Contact tab, the user should not be given access to add, edit or delete any fund.
+Medium	When in Read Only access, In Client Management, Fund tab, the user should not be given access to add, edit or delete any fund.
+Medium	When in Read Only access, In user management , User role tab, the user should not be given options to add, edit or delete any user role.
+Medium	When in Read Only access, the Aggrement Monitor screen is giving option to import files.
+Medium	When in Read Only access, The Middle Office Tab should not give user options to claim,unclaim,etc.
+Medium	When in Read Only access, Recon should not be given run and schedule options in Recon Task List
+Medium	When in Read Only access, AIFMD module should not give SAVE option .
+Medium	When in Read Only access, In Regulatory SDR, the user is given all access to group, ungroup ,claim etc operations , in all the sub-menus .
+Medium	When in Read Only access, in Inbox Screen for all the tabs, user is getting access to perform operations on the data.
+Medium	In read only access, The Scheduling grid should not display options of run, delete, enable , disable etc.
+Medium	The Scheduling grid is showing records of another fund too. The grid should display fund specific records.
+Medium	In role management when checking the "Write ", "Read " checkboxes also gets checked but visiting that page after save is not persisting the read checkboxes.
+Medium	File Naming Convention field in recon configuration is indicated as mandatory field, but leaving it blank also saves the configuration
+Medium	Sometimes, The scheduler grid is not displaying the schedules created , in console it shows status 500, "internal server error". 
+Medium	Scheduler when failed gives error message in green.
+Medium	If user's role has only read only access to recon, It should not show the run icon. Currently, it shows run and when the files are being loaded, it gives "internal server error"
+Medium	In read only mode, Source management should not give delete options
+Medium	In read only mode, Scheduling should not give add (+) option and save option .
+Medium	In source management, editing a source, import an excel with overriding option, having made some changes in the excel, the source gets updated on grid but on click of save it gives error,"Some error occurred while deleting previous mappings".
+Medium	Aro Admin --> Configuration --> issues at UI
+Medium	Admin -->Client Mngt --> Client Contact --> Click on ADD and leave all the fields blank on ADD Contact Pop up window --> Click on Save. Mandatory Field message is not coming and a misleading message is displayed.
+Medium	Delete of Client Contact is marked as Update in Audit Record.
+Medium	Add/Update of new user/user  is not getting audited.
+Medium	Delete of User is not allowed in ARO currently.
+Medium	Blank Audit Details is generated in Operations --> Audit -->Role
+Medium	For Multiple Fund Selection , the Module and Type Pick List Value is not coming while uploading File in File Monitor 
+Medium	Scheduling --> Click on + is taking user to Task Scheduling Screen with Fund Filed autopopulated as the 1st Fund in list.
+High	Workflow Read Only Issue
+Medium	Success message for new created recon scheduler--> "Created recon schedule for batch id: null".
+Medium	In source management, editing a source, the changes made in excel file is not getting updated in some cases.
+Medium	In Scheduling , click on Edit Recon Scheduler is taking user to Task Scheduling window with Blank Data.
+Medium	Parent fund drop down list is not showing correct list, when click on edit.
+Medium	When deleting some records from excel file, and again uploading in source management. It gives "internal server error"
+Medium	To run the recon, the files which are uploaded for some recon, are getting retained for any other recon, if we close the modal without loading them.
+Medium	If the default selected fund is inactive, there is no validation implemented. After re-login, the system is not selecting any funds and the system is showing data of previous inactive fund.
+Medium	User Sync Scheduler --> Scheduler is getting saved without any data in it.
+Medium	Not able to save REGULATORY Scheduler in ARO.
+Medium	Job Status is not displayed for a Workflow Schedule ran manually.
+Medium	Scheduling --> Create Workflow Schedule as Ad-hoc and run manually, Last Run Date Field is not updated.
+Medium	Scheduling --> Workflow --> Select Task Scheduling option as weekly and don't select any day and don't set any time --> Save is not giving any msg prompting user to enter the day and time.
+High	Scheduling --> Not getting Failure Notification via email.  
+High	Scheduled Tasks not displayed in Scheduling --> table
+Medium	Scheduling --> Click + --> Task Scheduling , Mandatory Fields are not * marked and are not getting red high light when try to save without providing mandatory data.
+Medium	If a fund is assigned to some role, and user inactives the same fund, its should delete the record from user role grid and also from the slider. 
+Medium	User Role --> Delete message for independent funds(fund which is not parent or child for any fund), pop-up message displayed is not correct.
+Medium	UI Issues in ARO
+Medium	In File Monitor click on Processed number Hyperlink , Processed Trade pop up window is blank.
+Medium	If you try upload an Invalid File from File Monitor user is logged out of ARO.
+Medium	For user having all inactive fund assigned to it, if he navigates to Data Grid --> gets an un-user friendly error message.
+Medium	For user having no active funds , navigation to WorkFolw Admin is giving Recon error.
+Medium	For an user having no active fund assigned to it, the Fund Pick List is not coming at all.
+Medium	For an error with "Please Contact Admin. Click here " , clicking on "Click Here" is doing nothing.
+Medium	If a User dont have any active Fund and he tries to navigate to RECON he is getting error message which is not user friendly.
+Medium	In-Active funds are available in Fund Selector at ARO Level.
+Medium	Not able to add new role in ARO
+Medium	In Job Status Tab, the Job Type Picklist doesn't contain User Sync option.
+Medium	Scheduling --> Scheduler List Grid is not coming so list of scheduled task is displayed.
+Medium	Scheduling --> Click + --> Task Scheduling , Mandatory Field Message are coming as pop up which is not is sync with ARO's other Mandatory messages.
+Medium	Scheduling -->Click + --> Task Scheduling Screen --> Fund, All the Funds defined in ARO are visible here.
+Medium	Scheduling --> click + --> Page Selection / Rendering Issue
+Lowest	Rendering of Page issue on Source Mngt --> Create Source  
+Medium	Suggestion : Fund Name should be at Source Mngt.
+Medium	A duplicate source with all duplicate data can be created in Source Management.
+Medium	"Add to Current Mapping"  option is not working on Source Management.
+Medium	Suggestion : File Naming Convention should have water mark [should contain help text]
+Medium	Delete of Sources at Source Mngt should not be allowed for In Use Sources.
+Medium	Suggestion : We should add Role and Qlik Fields at User Management Table too.
+Medium	Suggestion : Fund Addition/Deletion should go under 4 eye verification.
+Medium	Suggestion : Only Hard delete works on role. We should make it active and inactive rather than Hard delete
+Medium	Duplicate Role is creatable in ARO , Role Name should be unique.
+Medium	No validation rule present on deletion/updation of Mapping of Source from Source Management.
+Medium	Invalid error message is displayed for Blank Src 1 and Src 2 while creation of RECON Configuration.
+Medium	Role switch of user looses Fund Selection for the previously selected role.
+Medium	Delete of Mapping of Source from Source Mngt is not giving any error message.
+Medium	Not able to select data from Source 1 picklist and Source 2 picklist while adding Recon Mapping.
+Medium	Issues on adding Recon Mapping via Add Button.
+Medium	Display issue at all the Picklists in Source Mngt --> Create Source Table
+Medium	Suggestion : We should make File Type Read Only after 1st time save in Source Mngt --> Create Sources for Fund.
+Medium	Funds selection and unselecting don't trigger refresh of ARO, user have to manually do that.
+Medium	Source Management --> Fund --> Only the Reporting Unit Fund should be available for selection.
+High	Issue at FUND UNSelection from FUND Selector.
+High	Admin is not able to create non qlik user.
+High	In ARO add new role --> Add New Fund --> Assign New Role to a user SARVA --> Logout --> Relogin --> Select New Role --> Select New Fund --> Click on Source Mngt --> No Funds displayed and getting error message.
+Medium	Picklists having long data list don't have scroll Bar which makes selection tough.
+High	Personal Settings not working for user having multiple Roles.
+Medium	Source Management-> Import a mapping-> Delete some fields and save-> again Import a mapping but refresh without saving. The grid is getting empty, i.e., previous mapping is not being displayed.
+Medium	On ARO Fund selector, click on FUND Name --> the text disappears.
+Medium	Import Mapping Options on Source Management is not consistent.
+Medium	Recon Configuration Save : On Save of Recon Config , the value of Src1 and Src2 fields get removed.
+Medium	No Visibility of Funds.
+High	 Edit of workflow is giving this error message
+Medium	Save on Preferences Setting creates Double Claim , Assign , Group , Ungroup , Setting etc. in Workflow -->  Task List --> DTCC Workflow. The issue is there for all the Tables on Task List.
+Medium	Update of Child Funds in Client Management don’t give you updated list of child Funds for selection on Fund Selector at ARO Level
+Low	Investigate an SSO solution for dev tools
+Low	Setup a new Jenkins
+Medium	Setup Nexus
+High	Docker POC
+Highest	Setup ARO to run on Mac/Linux
+Medium	An error in between upload of Recon file leaves the uncompleted records of that recon in DB. It should be automatically rolled back.
+Medium	Application of 10 -12 Filters on RECONCILIATION makes the recon process too slow.
+Medium	New Category like TaskTracker.
+Medium	Recon - Break's Priority
+Medium	After deleting an existing Recon if you create Multiple Recon with same Name as deleted one , it is allowed in system.
+Medium	SCHEDULER for RECON is not working.
+Medium	Poor Performance of ARO while handling 2-3 lacks of Records for RECON.
+Highest	The Data on Data Control DASHBOARD is not getting refreshed when we upload new files for recon.
+Medium	DTCC Pairing :  User is free to give Alias while creating Mapping, but if PKs Filed Name is “Trade Id” and you give Alias as “Trade ID”  then recon for DTCC Pairing doesn’t work.
+Medium	DTCC PAIRING : Column Preferences not working.
+Medium	Suggestion : On Unmatched Tab,Row By Row and Column by Column don't work. Can we not disable or remove these options.
+Medium	User is allowed to trigger a process in ARO even though the same process is running at back end and  is not complete yet.
+Medium	Number Format Exception is not handled during Recon.
+Medium	Date as primary key for RECON is not working.
+Medium	Operations --> Audit --> Audit Report --> Function --> click on icon present in Details Field, Property Name Field Value should have logical name 
+Medium	Client Management --> Funds --> Add Fund button should be before Fund List.
+Medium	AUDIT --> Function and Workflow , two tabs have two different Date Format. 
+Medium	File Monitor -->  DTCC File Upload  Wrong upload message is displayed.
+Medium	Results  Partial Match[any table]  When you have 50/60 rows to display the Horizontal Scroll bar is not coming , you need to scroll vertically to get horizontal scroll bar.
+Medium	Suggestion : Aggregation picklist Name is extending to another Filed, give please choose a small name.
+Medium	Data Control   Config  Save Mappings  Save Button is not working and no configuration is saved.
+Medium	Data Control  Config  Import Mappings  Alignment of override current mapping / add to current mapping is not proper
+Medium	Switching of Fund on Data Control is not refreshing the data.
+Medium	Data Control -->  Config -->  In Mapping Table itself the Import and Export buttons should be present [on side of Add, Delete or save]
+Medium	Suggestion : Data Control --> Config  --> Task List --> Last Updated On  , please update it to " Last Updated"
+Medium	Data Control --> Config --> Task List --> Click on Download -->  NO is coming it should be No
+Medium	Data Control -->  Config -->  Create By, it should be Created By
+Medium	Suggestion : ARO Admin  Role Update  Activity Column should be removed and Add Fund + should be given at Fund Column itself.
+Medium	Suggestion : ARO Admin  Client Management  Create Client  Add Fund  Field  Should have upload and clone feature available for user
+Medium	Suggestion : ARO Admin  Client Management  Create Client  Add Fund  Edit Fund option is not available for user
+Medium	ARO Admin  Client Management  Create Client  Add Fund  Add Row   Give Fund Name and keep description blank  for blank description make field specific error message.
+Medium	Suggestion : ARO Admin --> Client Management --> Create Client --> Add Fund -->  Add Row  --> Error Message is displayed/Saved -->  Add Row Popup should be closed.
+Medium	Suggestion : Create a Non Click  Operations Lead user. Navigate to  Analytics --> Menus are displayed but No Report is displayed. What is the need of Menu for Non Click User, they should not have menu displayed too.
+Medium	ARO Admin --> Role Update --> No Save message is displayed --> Role is getting updated.
+Medium	Table Feature issue on Build Deployed on 6th Jan 2017
+Medium	Regulatory  CMRS , Default view of table alignment not fitting the Frame properly. Please refer to the screenshot.
+Medium	Operations Audit Report  , the search features on all Fields are not in sync
+Medium	ADMIN  ARO Admin  User Management  Edit View  Role and Permission Tables
+Medium	ADMIN --> ARO Admin --> Role Management , Action Field have different filter and is not consistent.
+Medium	ADMIN --> ARO Admin --> Client Management , Action and Status Field have different filter and is not consistent.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, Column Lengths are not Adjustable.
+Medium	Workflow --> Workflow Task List --> All Tables , Inconsistent Filter available on Fields.
+Medium	Regulatory --> DTCC PAIRING , Column Drag and Drop present but not working.
+Medium	Regulatory --> CMRS -->Column Drag and Drop present but not working.
+Medium	Regulatory --> SDR --> Breaks Management, Column Drag and Drop present but not working
+Medium	Operations --> Middle Office --> Mointor , Column Drag and Drop present but not working
+Medium	Operations --> User Inbox --> Table in all the tabs , Column Drag and Drop present but not working
+Medium	Operations --> File Cabinet , Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> Qlink Session, Filter or search feature present on Table Fields is not in sync.
+Medium	Admin --> Session Management --> Qlink Session , Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> ARO Session Table --> No Filter or search feature present on Table.
+Medium	Admin --> Session Management --> ARO Session, Column Drag and Drop is not present.
+Medium	Admin --> Session Management --> ARO Session,Column Lengths are not Adjustable. 
+Medium	Admin --> Config --> Validation Rules, Column Drag and Drop is not happening.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, No Filter or search feature present on Table.
+Medium	Workflow --> Workflow Admin --> Workflow Details Tables, Column Drag and Drop is not present.
+Medium	Workflow --> Workflow Task List --> All Tables , Column Drag and Drop is not working for tables on this Page.
+Medium	Task Work flow
+Medium	Recon - Issues
+Medium	Admin - Configuration -Reference Data - No check present in the client dropdown.It populates all client for a user who is not entitled to see other clients
+Medium	ARO User Management - User Edit functionality for active users
+Medium	Client Management - Zip Code Fields max length is not set
+Highest	Suggestion on User Management : Add --> Save a new user needs to be more user friendly.
+Medium	Audit Report export Issue with blank data
+Medium	Sorting & Pagination not working properly in client management
+Medium	Client Management screens - Creation of funds
+Medium	Audit - Filtering functionality not available in the datagrid
+High	Audit is not displayed on IE 
+Medium	Workflow Audit - Issues related with Grouping of Tasks
+Medium	Validation check is missing for task workflow. e.g. Manual Task1 complete can't invoke the same task again.
+Medium	 User skill is same for every user in Send Mail pop up window.
+Medium	There is no check of user active or inactive in Send mail popup window.
+Medium	Audit is not working for Task Tracking
+Medium	Read only functionality is missing in Workflow.
+Medium	Workflow definition is not aligned with user's fund.
+Medium	Suggestion : View Workflow Functionality should be there in ARO.
+Medium	Workflow Issues
+Medium	Discrepancies on Release Notes 11/05/2016 
+Medium	Intermittent Issue : The views are overlapping sometimes in ARO
+Medium	When we run a Task Tracking Workflow it is not displayed in Workflow Task List.
+Highest	Role change is not giving access to the Header Menu in ARO 
+Medium	Clone workflow is not working on ARO
+Medium	Getting message " User all ready logged In" after killing the Instance from Task Manager.
+Medium	Role Master - Screen hangs while deleting the role
+Medium	Recon - Issue on Recon on Primary Key
+Medium	Issue on Recon based on Match Priority.
+Medium	Stale Request Page Template Issue
+Medium	Recon - Aggregation Issue
+Medium	Recon - Mapping Reset issue
+Medium	Issue in reconciliation.
+Medium	The new recon config created on Configurations Tab is not getting displayed in Data Control --> Task List
+Medium	Reconciliation Name should be Unique.
+Medium	Across ARO : Move Off without save should give a confirming message that your are not saving the record , data will be lost.
+Medium	Filter on Source 1 and Source 2 should not be present at the time of creating Recon Configuration.
+Medium	For Recon Config, if we leave the Type Field as blank and try to save the record "Undefined is Required " error message is coming.
+Medium	Recon - Delete functionality need to be revisited 
+Medium	System exception - Getting Qlik 404 error
+Medium	P&L allocation graph 
+Medium	Generic Issue of Message display on Save
+Medium	Audit  Report User dropdown issue
+Medium	Add Edit Client - No Mandatory field validation present for fund
+Medium	Client Management - No validation check present for zip code
+Medium	User Login- Inactive user can login to the system
+Medium	Code Minification and combining js files across ARO
+Medium	Blank box on dashboard when no favorites added 
+Medium	Create a module to identify P&L position 
+Medium	Create a module to identify balance sheet position 
+Medium	AI - use Stanford NLP to parse and identify balance sheet, P&L and other financial data from a PDF 
+Medium	Create sample screen for uninstructed data presentation  
+Medium	Make command process as windows service (Tabula, Ruby)
+Medium	Let the users download extracted data as CSV, PDF and other formats
+Medium	Make changes to the extracted data dashboard; it should allows right click on a cell/row and perform change ( Edit, Delete, Merge) 
+Medium	Create an automatic process that imports PDF file to the Unstructured application and pre-process them
+Medium	Modify the Uninstructed data Main page, it should have similar look and feel like other ARO screens 
+Medium	Balance Sheet validation on the manually extracted data 
+High	Not able to login to ARO on IE 11.
+Medium	P&L Positions by Summary - Blank row is coming at the end of grid
+Medium	P&L Aggregation - Blank Values are coming
+Medium	Realized P&L Report - Getting blank values at the end of grid
+Medium	Issue on IE 11, Role selector, Fund Selector and Date displayer are not visible on any other page other than Home
+Medium	Shorting of records on DTCC Workflow Task List is not working as expected.
+High	Operation - Field Mapping
+Medium	Report - NAV Timeseries
+Medium	Report - NAV Timeseries
+High	Qlik Timeout issue
+High	Page Loading error
+Medium	Login - Already logged-in user issue for contact
+Medium	Ability to create drop-downs in non-alphabetaical order
+Medium	Create some order/folder for the reports in QLIK.
+Medium	Ability to create own report in ARO
+Medium	Timeseries NAV report from Qlik
+Medium	Admin User rights -  Assign portal role access
+Medium	User Characteristics - Format:• Ops:  firstname.lastname, i.e. danny.murphy / Clients: firstname.lastname_client, i.e. george.sosos_soros
+Medium	The DTCC change  - Claimed a new task - went to User Inbox - Changed the Status to Pending- is not getting Audited in Audit Report
+Medium	In User Inbox when we click on Send Mail Button mail is sent to the selected user without Trade ID and External ID
+Medium	Show Rows Column on Audit Details Page is not consistent.
+Medium	Workflow update is not getting Audited in ARO.
+Medium	Audit Report Details - Issues with blank old and new values 
+Medium	Audit Report - Search By Date Range not giving correct result (screenshot attached)
+Medium	Audit Report -  Admin privilege required to see audit reports
+Medium	File Management Upload - Table ARO Accounting
+Medium	Global Menu - Not aligned (Screenshot attached)
+Medium	File Management Upload - No UI validation present
+Medium	File Management Search Issues
+Medium	File Management Upload - Upload and Display Issue
+Medium	File Management Screen 
+Medium	File Management Upload - Fixed Values are coming in Fund Dropdown
+Medium	Compatibility Issue : Assign Button is not working on IE 11
+Medium	The Task List opened via click on Hyperlink of Group ID doesn't show the Grouped Task.
+Medium	Issues related to Schedule and Run Button on Work Flow List.
+Medium	Task Tracking Tasks are not getting displayed in Task List
+Medium	Field Mapping - Data Grid Issues
+Medium	Field Mapping - Adding manually Mapping
+Medium	Field Mapping - Import functionality not working
+Medium	Field Mapping - UI Issues
+Medium	Assign and Claim button not working for Exception Resolution Task. Assign To Column is also not available.
+Medium	Client Management - Client Delete Functionality Issue
+High	Client Management - Add Field Screen Issues
+Medium	Client Management - Not able to edit client information
+Medium	User Management - Login error message is not coming
+Medium	File Monitor - Trade file loaded incorrectly as Cash and pop up stated file successfully loaded however, file not loaded.
+Medium	File Monitor - Unable to trace user details who processed a trade file
+Medium	File Monitor - No error message provided when trade moves to pending status
+Medium	File Monitor - Scroll button not in order so as to view audit details.
+Medium	File Monitor - Action: PDF & Resend files not in use
+Medium	File Monitor - Import file through PDF/XML not in use
+Medium	File Monitor - Role and Fund level filter not there
+Medium	Trade Processing - Task List is empty
+Medium	Audit Report - In case of new client creation, it's audit reflected "password" field which was no where defined
+Medium	Audit Report - Date criteria incorrect as data captured from n-1 to n+1 when range given from n to n+1
+Medium	Audit Report - Full extraction of Audit details cannot be done for selected records
+Medium	Audit Report - Search & Export Icon present but not uniform
+Medium	'All' feature missing in select criteria
+Medium	Role based user landing page
+Medium	Build Pipeline for build promotion
+Medium	Handle File failures while processing trade files
+Medium	Handling File Processing failures other than valdations/rules
+Medium	User can hack a page he does not have access to thru URL
+Medium	Trade Processing in Cluster Mode
+Medium	Work related to DevOps
+Medium	SonarQube Integration with ARO
+Medium	Admin - Audit Details window
+Medium	Admin - Audit Report window
+Medium	Admin - Add a new user 
+Medium	Admin - Client Management Issues
+Medium	Role Master screen issues
+Medium	Admin - Edit a user issues
+Medium	Admin -  Add a new user issues
+Medium	Admin - User Management List Page 
+Medium	Admin - Default sorting of data is missing in dropdown fields (mentioned in the description)
+Medium	Global - Pagination show rows field values are not consistent 
+Medium	Global - Data Grid sorting functionality missing in admin modules
+Medium	User Management - Search Functionality not working
+Medium	Invalid user id
+Medium	Global Qlik filter is visible for all pages
+Medium	Global Client field shows Fund names not client names.
+Medium	Update the SSt reporting party for DTCC files loaded
+Medium	Create connectors to Load DTCC Files onto ARO for SSt
+Medium	Matching of messages from 2 systems in SSt
+Medium	Transaction Management in Trade Processing
+Medium	App Management Screen for ARO components
+Medium	Send active ARO user list to stakeholders
+Medium	Audit Report should be in one place
+Medium	Auto-deletion of user in Qlik when deleted from ARO
+Medium	Make the trade processing modules configurable 
+Medium	Potential DB connection leakage
+Medium	Date in ARO visible in user timezone
+Medium	Segregating Filters across ARO
+Medium	Trade Processing in Hibernate
+Medium	Implement holiday calendar
+Medium	Password Management
+Medium	User can have different role in different fund
+Medium	Link the batch Id in File Monitor with workflow task
+Medium	Outbound files tracking and viewing in ARO
+Medium	All the workflow tasks should have the same look and feel
+Medium	Monitoring includes System information, utility , logging etc...
+Medium	Performance for ARO - Queues, DB, Caching, Qlik, Load Testing, Stress Testing etc (Non Functional)
+Medium	All reporting and dash-boarding in ARO
+Medium	Admin module for Client, User, Roles, Resources
+Medium	File Monitor
+Medium	File/ Msg Mapping between 2 formats
+Medium	Processing of Trade File, Unstructured File, Positions File etc.
+Medium	Workflow Audit (Old/ New Value) for the workflow tasks
+Medium	Development of different workflows in ARO
+Medium	New files to be uploaded under File Management
+High	NAS drive is down again
+Medium	NAS is not working
+Medium	Cannot Access Qlik or ARO
+Medium	Files loaded stuck in pending status
+Medium	Drop down become un-scroll-able
+Medium	Top menu
+High	Field mapping import
+High	OT not working - rabbit MQ not connected
+Medium	ARO and OT performance from India
+High	NAS was down
+High	NAS drive is down again
+High	Login problem
+Highest	OT Dev very very slow
+Medium	NAS drive is down again
+Medium	Qlik tables change when other users change fund or date in ARO
+Medium	Aro & Qlik are regularly crashing
+High	ARO Demo is down
+Medium	Running OT Task on the server
+Medium	OT dev behaving strange - can we restart or check everything is running
+High	OT keeps crashing - Trojan notifications
+Medium	Organise Qli - Reports and database tables
+High	Product table to load - and loader to create
+Medium	Run Sonar and Fix high priority issues
+Medium	ARO Permission based on fund
+Medium	Bond Stuck in Pending 
+Medium	FX trades not loading on ARO 
+Medium	Swaps and Swaptions not loading
+Medium	Trade upload failure
+Medium	Amend Bonds
+Medium	IRS Receive Leg
+High	Equity Swap & Bond Swap 
+High	Repo Var rate Index
+Medium	ClientTransactionID on CDS
+Medium	Error Updating ISIN
+Medium	PayLeg Roll Code
+Medium	Update reversing position on FX
+Medium	Abilty to undo and reapply Actions
+Medium	CDS Index
+Medium	OSI Code
+Medium	Add mapping for exchange = CCP for only IRS, CDS
+Medium	Fees (all assets)
+Low	Template - create one in Portal or Use OT template
+Medium	Repo/Reverse Repo Failing
+Medium	Mapping to 'FX Points' in Loader
+Medium	FX B/S type
+Medium	Futures Ticker
+Medium	Guide distribution ready 
+Medium	Final Draft edits 
+Medium	Sarva to review/edits 
+Medium	GK/Navin to review/edits
+Medium	Collect Info/Add to guide
+High	P & L Screen
+High	NAV Screen
+Medium	Profile and Setting
+Medium	Sign on Screen
+Medium	EZARO Connectivity 
+High	Create Home Screen
+Medium	Software requirement finalization
+Medium	ARO Automation Design
+Medium	Automation
+Highest	One role Lizard Business Analyst only has permissions to the menu Admin-> Configuration and Operation->Data Control, assigned to a user, gives unexpected error occured message when user tries to add new source.
